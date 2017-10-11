@@ -1,0 +1,3 @@
+In a single linked list it would be quite difficult to traverse a single linked list in reverse as you could either go through the linked list N times where N is the length each time going 1 less space and output it that way or you could make another linked list where the start of this one is the end of the one you create and then traverse the new list
+
+To improve this you could make a double linked list where every node points to the next one and the previous one so once you get to the end of the double linked list or simply store the tail you could easily traverse it going backwards.
