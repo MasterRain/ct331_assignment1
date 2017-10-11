@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "linkedList.h"
 #include "tests.h"
+#include "stddef.h"
 
 int main(int arg, char* argc[]){
   runTests();
